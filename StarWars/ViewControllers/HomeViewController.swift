@@ -49,12 +49,6 @@ class HomeViewController: UITableViewController, ActivityIndicatorProtocol {
                                                         action: #selector(clearSearchResults))
   }
   
-  private func show(alert message: String) {
-    let alert = UIAlertController.init(title: Message.alert, message: message, preferredStyle: .alert)
-    alert.addAction(UIAlertAction.init(title: Message.ok, style: .cancel, handler: nil))
-    present(alert, animated: true, completion: nil)
-  }
-  
   // MARK: - Button Action
     @objc private func clearSearchResults() {
     people = []

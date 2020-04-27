@@ -6,7 +6,6 @@
 //MARK: - Segue Identifiers
 struct SegueIdentifiers {
   static let detail = "DetailViewControllerSegue"
-  static let subDetail = "subDetailViewControllerSegue"
 }
 
 //MARK: - Reuse Identifiers

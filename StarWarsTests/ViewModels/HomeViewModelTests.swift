@@ -27,20 +27,19 @@ class HomeViewModelTests: XCTestCase {
                                    edited: "EDITED",
                                    url: "TESTURL")
   
-  override func setUp() {
-    super.setUp()
+  override func setUpWithError() throws {
     mockService = MockSWWebService()
     homeViewModel = HomeViewModel.init(withAPI: mockService!)
     resource = Resource.init(results: [people], next: "NEXT_URL", previous: "PREVIOUS_URL", count: 100)
   }
   
-  override func tearDown() {
+  override func tearDownWithError() throws {
     mockService = nil
     homeViewModel = nil
-    super.tearDown()
+    resource = nil
   }
-
-  func testFetchPeopleResultSuccess() {
+  
+  func testFetchPeopleResultSuccess() throws {
   
     mockService?.fetchPeopleResourceClosure = { (queryString, page, completion) in
       completion(.success(response: self.resource)
@@ -71,7 +70,7 @@ class HomeViewModelTests: XCTestCase {
     })
   }
   
-  func testFetchPeopleResultFailure() {
+  func testFetchPeopleResultFailure() throws {
     mockService?.fetchPeopleResourceClosure = { (queryString, page, completion) in
       let serviceError = SWServiceError.init(with: 0, errorDescription: "SERVICE_ERROR")
       completion(.failure(error: serviceError)
