@@ -20,6 +20,8 @@ Once user clicks any character they will be landed to a detail page where they w
 
 Added some tests to just as a sample how the code can be tested using Protocol Oriented Approach.
 
+Here are few sample screenshots of the application.
+
 App Icon
 
 <img width="584" alt="Screen Shot 2020-04-26 at 2 19 55 PM" src="https://user-images.githubusercontent.com/29422737/80320274-66704a00-87ca-11ea-984f-a5586a281216.png">
