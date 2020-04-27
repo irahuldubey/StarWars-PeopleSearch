@@ -13,7 +13,6 @@
 		D340218A245404F2006DE107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3402188245404F2006DE107 /* Main.storyboard */; };
 		D340218C245404F4006DE107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D340218B245404F4006DE107 /* Assets.xcassets */; };
 		D340218F245404F4006DE107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D340218D245404F4006DE107 /* LaunchScreen.storyboard */; };
-		D340219A245404F4006DE107 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3402199245404F4006DE107 /* StarWarsTests.swift */; };
 		D34021E224540B8B006DE107 /* RestServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E124540B8B006DE107 /* RestServerManager.swift */; };
 		D34021E524540BCF006DE107 /* RestEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E424540BCF006DE107 /* RestEnums.swift */; };
 		D34021E924540CB1006DE107 /* RestAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E824540CB1006DE107 /* RestAPIHelper.swift */; };
@@ -34,6 +33,32 @@
 		D394A53B2454E3CE00658F89 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A53A2454E3CE00658F89 /* DetailsViewController.swift */; };
 		D3A5721824557E1800432C2B /* defaultImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3A5721724557E1800432C2B /* defaultImage.jpg */; };
 		D3A5721A245589E000432C2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3A57219245589E000432C2B /* Default-568h@2x.png */; };
+		D3A5CAC32456807700303DA1 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5CAC22456807700303DA1 /* HomeViewModelTests.swift */; };
+		D3A5CAC42456807C00303DA1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021F724541F27006DE107 /* HomeViewModel.swift */; };
+		D3A5CAC52456808400303DA1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021EB24540CFC006DE107 /* API.swift */; };
+		D3A5CAC62456808600303DA1 /* RestEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E424540BCF006DE107 /* RestEnums.swift */; };
+		D3A5CAC72456808900303DA1 /* RestAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E824540CB1006DE107 /* RestAPIHelper.swift */; };
+		D3A5CAC82456808C00303DA1 /* RestServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021E124540B8B006DE107 /* RestServerManager.swift */; };
+		D3A5CAC92456808E00303DA1 /* SWServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A52E245430DC00658F89 /* SWServiceResponse.swift */; };
+		D3A5CACA2456809000303DA1 /* SWWebServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021ED245412A4006DE107 /* SWWebServiceAPI.swift */; };
+		D3A5CACB2456809300303DA1 /* SWWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021EF245412BC006DE107 /* SWWebService.swift */; };
+		D3A5CACC2456809500303DA1 /* SWDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A530245430F300658F89 /* SWDataError.swift */; };
+		D3A5CACD2456809700303DA1 /* SWServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021F524541337006DE107 /* SWServiceError.swift */; };
+		D3A5CACE2456809A00303DA1 /* SWSeviceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021F1245412F9006DE107 /* SWSeviceParser.swift */; };
+		D3A5CACF2456809C00303DA1 /* SWResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34021F324541326006DE107 /* SWResourceModel.swift */; };
+		D3A5CAD02456809E00303DA1 /* SWImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC20C82455730200528976 /* SWImageModel.swift */; };
+		D3A5CAD1245680A200303DA1 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A5342454338700658F89 /* UIViewController+Extension.swift */; };
+		D3A5CAD2245680A400303DA1 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3440D1924562A020055E8CF /* UIImage+Extension.swift */; };
+		D3A5CAD3245680A700303DA1 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC20C12454FCCD00528976 /* URL+Extension.swift */; };
+		D3A5CAD4245680AA00303DA1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A536245433CE00658F89 /* Constants.swift */; };
+		D3A5CAD5245680AC00303DA1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A5382454D09300658F89 /* Utilities.swift */; };
+		D3A5CAD6245680AE00303DA1 /* DateFormattingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC20C324555D1300528976 /* DateFormattingHelper.swift */; };
+		D3A5CAD7245680B800303DA1 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A5322454330100658F89 /* HomeViewCell.swift */; };
+		D3A5CAD8245680BC00303DA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3402186245404F2006DE107 /* HomeViewController.swift */; };
+		D3A5CAD9245680BE00303DA1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D394A53A2454E3CE00658F89 /* DetailsViewController.swift */; };
+		D3A5CADD2456812600303DA1 /* MockSWWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5CADB2456811D00303DA1 /* MockSWWebService.swift */; };
+		D3A5CADE2456831900303DA1 /* MockSWWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5CADB2456811D00303DA1 /* MockSWWebService.swift */; };
+		D3A5CADF2456833F00303DA1 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC20C624556C2500528976 /* DetailViewModel.swift */; };
 		D3FC20B92454EE3100528976 /* Splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3FC20B82454EE3100528976 /* Splash.jpg */; };
 		D3FC20BB2454EF3D00528976 /* StarJediRounded.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3FC20BA2454EF3D00528976 /* StarJediRounded.ttf */; };
 		D3FC20C22454FCCD00528976 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FC20C12454FCCD00528976 /* URL+Extension.swift */; };
@@ -61,7 +86,6 @@
 		D340218B245404F4006DE107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D340218E245404F4006DE107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3402195245404F4006DE107 /* StarWarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3402199245404F4006DE107 /* StarWarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsTests.swift; sourceTree = "<group>"; };
 		D340219B245404F4006DE107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D34021E124540B8B006DE107 /* RestServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestServerManager.swift; sourceTree = "<group>"; };
 		D34021E424540BCF006DE107 /* RestEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestEnums.swift; sourceTree = "<group>"; };
@@ -84,6 +108,8 @@
 		D394A53A2454E3CE00658F89 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		D3A5721724557E1800432C2B /* defaultImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultImage.jpg; sourceTree = "<group>"; };
 		D3A57219245589E000432C2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D3A5CAC22456807700303DA1 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		D3A5CADB2456811D00303DA1 /* MockSWWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSWWebService.swift; sourceTree = "<group>"; };
 		D3FC20B82454EE3100528976 /* Splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Splash.jpg; path = ../../../../../Downloads/Splash.jpg; sourceTree = "<group>"; };
 		D3FC20BA2454EF3D00528976 /* StarJediRounded.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarJediRounded.ttf; sourceTree = "<group>"; };
 		D3FC20C12454FCCD00528976 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
@@ -148,7 +174,8 @@
 		D3402198245404F4006DE107 /* StarWarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3402199245404F4006DE107 /* StarWarsTests.swift */,
+				D3A5CADA2456810D00303DA1 /* Mocks */,
+				D3A5CAC12456806400303DA1 /* ViewModels */,
 				D340219B245404F4006DE107 /* Info.plist */,
 			);
 			path = StarWarsTests;
@@ -313,6 +340,22 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
+		D3A5CAC12456806400303DA1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3A5CAC22456807700303DA1 /* HomeViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D3A5CADA2456810D00303DA1 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D3A5CADB2456811D00303DA1 /* MockSWWebService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -443,6 +486,7 @@
 				D34021F624541337006DE107 /* SWServiceError.swift in Sources */,
 				D394A537245433CE00658F89 /* Constants.swift in Sources */,
 				D394A53B2454E3CE00658F89 /* DetailsViewController.swift in Sources */,
+				D3A5CADD2456812600303DA1 /* MockSWWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +494,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D340219A245404F4006DE107 /* StarWarsTests.swift in Sources */,
+				D3A5CAD1245680A200303DA1 /* UIViewController+Extension.swift in Sources */,
+				D3A5CAD4245680AA00303DA1 /* Constants.swift in Sources */,
+				D3A5CACC2456809500303DA1 /* SWDataError.swift in Sources */,
+				D3A5CAC42456807C00303DA1 /* HomeViewModel.swift in Sources */,
+				D3A5CAD7245680B800303DA1 /* HomeViewCell.swift in Sources */,
+				D3A5CAD8245680BC00303DA1 /* HomeViewController.swift in Sources */,
+				D3A5CAC62456808600303DA1 /* RestEnums.swift in Sources */,
+				D3A5CAD3245680A700303DA1 /* URL+Extension.swift in Sources */,
+				D3A5CAC52456808400303DA1 /* API.swift in Sources */,
+				D3A5CACB2456809300303DA1 /* SWWebService.swift in Sources */,
+				D3A5CAD9245680BE00303DA1 /* DetailsViewController.swift in Sources */,
+				D3A5CAD02456809E00303DA1 /* SWImageModel.swift in Sources */,
+				D3A5CAC92456808E00303DA1 /* SWServiceResponse.swift in Sources */,
+				D3A5CADF2456833F00303DA1 /* DetailViewModel.swift in Sources */,
+				D3A5CAC82456808C00303DA1 /* RestServerManager.swift in Sources */,
+				D3A5CACD2456809700303DA1 /* SWServiceError.swift in Sources */,
+				D3A5CAC72456808900303DA1 /* RestAPIHelper.swift in Sources */,
+				D3A5CAD2245680A400303DA1 /* UIImage+Extension.swift in Sources */,
+				D3A5CACA2456809000303DA1 /* SWWebServiceAPI.swift in Sources */,
+				D3A5CACE2456809A00303DA1 /* SWSeviceParser.swift in Sources */,
+				D3A5CAC32456807700303DA1 /* HomeViewModelTests.swift in Sources */,
+				D3A5CADE2456831900303DA1 /* MockSWWebService.swift in Sources */,
+				D3A5CAD5245680AC00303DA1 /* Utilities.swift in Sources */,
+				D3A5CACF2456809C00303DA1 /* SWResourceModel.swift in Sources */,
+				D3A5CAD6245680AE00303DA1 /* DateFormattingHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,7 +684,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -636,7 +704,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
