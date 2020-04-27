@@ -8,6 +8,8 @@ https://swapi.dev/api/people/?search=R
 # Sample API to fetch the Character Image
 https://cdn.rawgit.com/akabab/starwars-api/0.2.1/api/id/8.json
 
+# Application Details
+
 This application is designed in 2 views. Home Page shows a search bar which user can enter the character name and hit the enter key to search for any favorite characters. 
 
 If there are more character matching the search criteria user should be able to scroll at the bottom of the table to load more characters.
